@@ -8,21 +8,25 @@ Antes de executar o projeto, você precisa ter o Python instalado e a biblioteca
 
 ```bash
 pip install PyPDF2
+```
 
 ## 📁 Estrutura do Projeto
 Certifique-se de ter uma pasta chamada arquivos no mesmo diretório do script Python. Dentro dela, coloque todos os arquivos .pdf que deseja mesclar.
 
-seu_projeto/
+```seu_projeto/
 ├── arquivos/
 │   ├── documento1.pdf
 │   ├── documento2.pdf
 │   └── ...
 ├── main.py
+```
 
 ▶️ Como Executar
 - Coloque todos os arquivos PDF que deseja juntar dentro da pasta arquivos.
 - Execute o script:
+```
 python main.py
+```
 
 ## O programa irá:
 - Listar os arquivos PDF encontrados
