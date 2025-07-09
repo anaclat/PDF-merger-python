@@ -11,4 +11,4 @@ for arquivo in lista_arquivos:
     if '.pdf' in arquivo:
         merger.append(f'arquivos/{arquivo}')
 
-        merger.write('PDF Final.pdf')
+merger.write('PDF Final.pdf')
