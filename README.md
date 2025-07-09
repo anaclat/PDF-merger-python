@@ -54,10 +54,6 @@ for arquivo in lista_arquivos:
     if '.pdf' in arquivo:  # Verifica se o arquivo é um PDF
         merger.append(f'arquivos/{arquivo}')  # Adiciona o PDF ao merger
         merger.write('PDF Final.pdf')  # Gera o arquivo final (dentro do loop — pode ser melhorado)
-```
-
-⚠️ **Dica:** O `merger.write()` está dentro do `for`, o que pode causar problemas. O ideal é movê-lo para fora do loop:
-
 ```python
 for arquivo in lista_arquivos:
     if '.pdf' in arquivo:
