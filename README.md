@@ -21,7 +21,7 @@ Certifique-se de ter uma pasta chamada arquivos no mesmo diretório do script Py
 ├── main.py
 ```
 
-▶️ Como Executar
+## ▶️ Como Executar
 - Coloque todos os arquivos PDF que deseja juntar dentro da pasta arquivos.
 - Execute o script:
 ```
